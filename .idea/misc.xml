@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Android Apps/VKApp/app/src/main/res/layout/activity_main.xml" value="0.2" />
+        <entry key="..\:/Android Apps/VKApp/app/src/main/res/layout/fragment_authorization.xml" value="0.176" />
+        <entry key="..\:/Android Apps/VKApp/app/src/main/res/layout/fragment_news.xml" value="0.14375" />
+        <entry key="..\:/Android Apps/VKApp/app/src/main/res/layout/fragment_post.xml" value="0.2" />
+        <entry key="..\:/Android Apps/VKApp/app/src/main/res/layout/post_image_item.xml" value="0.176" />
+        <entry key="..\:/Android Apps/VKApp/app/src/main/res/layout/post_item.xml" value="0.264" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/drawable-v24/gradient_1.xml" value="0.20729166666666668" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/drawable-v24/gradient_2.xml" value="0.20729166666666668" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/drawable-v24/gradient_3.xml" value="0.20729166666666668" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/drawable/ic_baseline_favorite_24.xml" value="0.20729166666666668" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/drawable/ic_baseline_favorite_border_24.xml" value="0.20729166666666668" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/layout/activity_main.xml" value="0.19519927536231885" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/layout/fragment_authorization.xml" value="0.1" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/layout/fragment_news.xml" value="0.1707193515704154" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/layout/fragment_post.xml" value="0.1" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/layout/news_item.xml" value="0.1" />
+        <entry key="..\:/Kotlin Projects/VKApp/app/src/main/res/layout/post_image_item.xml" value="0.2658514492753623" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/VKApp1/app/src/main/res/layout/fragment_post.xml" value="0.1796875" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/VKApp1/app/src/main/res/layout/news_item.xml" value="0.1796875" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

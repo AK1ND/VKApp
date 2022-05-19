@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/authorizationFragment">
+
+    <fragment
+        android:id="@+id/authorizationFragment"
+        android:name="com.example.vkapp.fragments.authorization_fragment.AuthorizationFragment"
+        android:label="authorization"
+        tools:layout="@layout/fragment_authorization">
+        <action
+            android:id="@+id/action_authorizationFragment_to_newsFragment"
+            app:destination="@id/newsFragment"></action>
+    </fragment>
+    <fragment
+        android:id="@+id/newsFragment"
+        android:name="com.example.vkapp.fragments.news_fragment.NewsFragment"
+        android:label="news"
+        tools:layout="@layout/fragment_news">
+        <action
+            android:id="@+id/action_newsFragment_to_postFragment"
+            app:destination="@id/postFragment">
+            <argument
+                android:name="owner_id"
+                app:argType="string"
+                app:nullable="false" />
+            <argument
+                android:name="postID"
+                app:argType="string"
+                app:nullable="false" />
+
+        </action>
+    </fragment>
+    <fragment
+        android:id="@+id/postFragment"
+        android:name="com.example.vkapp.fragments.post_fragment.PostFragment"
+        android:label="post"
+        tools:layout="@layout/fragment_post">
+        <argument
+            android:name="owner_id"
+            app:argType="string"
+            app:nullable="false" />
+        <argument
+            android:name="postID"
+            app:argType="string"
+            app:nullable="false" />
+
+    </fragment>
+</navigation>
